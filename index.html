@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="fonts/stylesheet.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="filer mb-5 mt-5">
-          <form class="row">
-            <div class="col-12 col-md-2">
-              <div class="form-group mb-2">
-                <select class="form-control" sort-price>
-                  <option hidden checked value="0">- Cena -</option>
-                  <option value="risingPrice">Cena rosnąco</option>
-                  <option value="decreasingPrice">Cena malejąco</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-12 col-md-2 mb-2">
-              <div class="form-group">
-                <select class="form-control" sort-model>
-                  <option checked value="all">Wszystkie</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-12 col-md-2">
-              <div class="form-group">
-                <button class="btn btn-primary col-12" filter-submit>
-                  Filtruj
-                </button>
-              </div>
-            </div>
-          </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="fonts/stylesheet.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="filer mb-5 mt-5">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <div class="form-group mb-2">
+            <select class="form-control" sort-price>
+              <option hidden checked value="0">- Cena -</option>
+              <option value="risingPrice">Cena rosnąco</option>
+              <option value="decreasingPrice">Cena malejąco</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 mb-2">
+          <div class="form-group">
+            <select class="form-control" sort-model>
+              <option checked value="all">Wszystkie</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="form-group">
+            <button class="btn btn-primary col-12" filter-submit>
+              Filtruj
+            </button>
+          </div>
         </div>
       </div>
-    </header>
-    <main>
-      <div class="container">
-        <h1 class="font-weight-light">Nasze oferty</h1>
-        <div class="content row"></div>
-      </div>
-    </main>
-    <footer></footer>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <h1 class="font-weight-light">Nasze oferty</h1>
+    <div class="content row"></div>
+  </div>
+</main>
+<footer></footer>
 
-    <script src="js/app.js"></script>
-  </body>
+<script src="js/app.js"></script>
+</body>
 </html>
