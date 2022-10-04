@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
         );
         break;
       default:
+        console.log('Missing arguments');
     }
 
     items.forEach((item) => {
