@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
         );
         break;
       default:
-        console.log('Missing arguments');
+        console.log('Default view');
     }
 
     items.forEach((item) => {
