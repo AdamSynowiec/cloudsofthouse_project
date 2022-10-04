@@ -1,3 +1,3 @@
 # cloudsofthouse_project
 
-1. rund command - npm install
+1. run command - npm install
